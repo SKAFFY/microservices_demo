@@ -1,0 +1,4 @@
+github.com/SKAFFY/microservices_demo/pkg v0.0.0-20241217170542-9663b3fbf7c8 h1:bn1zMRPUFyb3D9OD/VLDZEp1Q6tc7TvNPpreDiCW9ac=
+github.com/SKAFFY/microservices_demo/pkg v0.0.0-20241217170542-9663b3fbf7c8/go.mod h1:XL3RuY653LtWku5oH/A8VvgsQN3G0nR/fmWNVMs/okc=
+github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
+github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=

@@ -1,10 +1,13 @@
 package definitions
 
-import "github.com/SKAFFY/microservices_demo/pkg/gracefulServer"
+import (
+	"github.com/SKAFFY/microservices_demo/pkg/gracefulServer"
+	"github.com/gorilla/mux"
+)
 
 // Container is a root dependency injection container. It is required to describe
 // your services.
-type Container struct
+type Container struct {
 	// put the list of your services here
 	// for example
 	//  log *log.Logger
@@ -20,5 +23,9 @@ type Container struct
 // }
 
 type APIContainer struct {
-	server gracefulServer.Server
+	server *gracefulServer.Server
+
+	publicRouter *mux.Router
+
+	routes *[]Route
 }
