@@ -2,6 +2,7 @@ package definitions
 
 import (
 	"github.com/SKAFFY/microservices_demo/pkg/gracefulServer"
+	"github.com/SKAFFY/microservices_demo/pkg/routes"
 	"github.com/gorilla/mux"
 )
 
@@ -27,5 +28,5 @@ type APIContainer struct {
 
 	publicRouter *mux.Router
 
-	routes *[]Route
+	routes *[]routes.Routes
 }
